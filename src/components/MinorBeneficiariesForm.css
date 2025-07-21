@@ -1,0 +1,66 @@
+/* src/components/MinorBeneficiariesForm.css */
+.form-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f6f8fa;
+}
+
+.minor-beneficiaries-form {
+    background: #fff;
+    padding: 32px 28px;
+    border-radius: 14px;
+    box-shadow: 0 4px 24px rgba(34, 34, 59, 0.08);
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.minor-beneficiaries-form div {
+    display: flex;
+    flex-direction: column;
+}
+
+.minor-beneficiaries-form label {
+    font-size: 15px;
+    color: #4a4e69;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.minor-beneficiaries-form input {
+    padding: 10px 12px;
+    border: 1px solid #c9c9c9;
+    border-radius: 6px;
+    font-size: 15px;
+    background: #f8f9fa;
+    transition: border 0.2s;
+}
+
+.minor-beneficiaries-form input:focus {
+    border-color: #5f6fff;
+    outline: none;
+    background: #fff;
+}
+
+.minor-beneficiaries-form button[type="submit"] {
+    margin-top: 10px;
+    padding: 12px 0;
+    background: linear-gradient(90deg, #5f6fff 0%, #6c63ff 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(108, 99, 255, 0.08);
+}
+
+.minor-beneficiaries-form button[type="submit"]:hover {
+    background: linear-gradient(90deg, #6c63ff 0%, #5f6fff 100%);
+    box-shadow: 0 4px 16px rgba(108, 99, 255, 0.12);
+}

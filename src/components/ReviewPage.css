@@ -1,0 +1,76 @@
+.review-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f6f8fa;
+}
+
+.review-card {
+    background: #fff;
+    padding: 36px 32px;
+    border-radius: 14px;
+    box-shadow: 0 4px 24px rgba(34, 34, 59, 0.08);
+    max-width: 420px;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    color: #22223b;
+    margin-bottom: 18px;
+}
+
+.review-details ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 24px 0;
+    text-align: left;
+}
+
+.review-details li {
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #22223b;
+}
+
+.review-details strong {
+    color: #5f6fff;
+}
+
+.review-actions {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.edit-btn, .confirm-btn {
+    flex: 1;
+    padding: 12px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+.edit-btn {
+    background: #f1f1f1;
+    color: #4a4e69;
+}
+
+.edit-btn:hover {
+    background: #e0e0e0;
+}
+
+.confirm-btn {
+    background: linear-gradient(90deg, #5f6fff 0%, #6c63ff 100%);
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(108, 99, 255, 0.08);
+}
+
+.confirm-btn:hover {
+    background: linear-gradient(90deg, #6c63ff 0%, #5f6fff 100%);
+    box-shadow: 0 4px 16px rgba(108, 99, 255, 0.12);
+}
